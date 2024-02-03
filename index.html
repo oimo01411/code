@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta name="robots" content="noindex,nofollow" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <meta name="format-detection" content="telephone=no" />
+  <!-- meta情報 -->
+  <title>Excite Code</title>
+  <meta name="description" content="ExciteCodeは、伝統あるテーラーだからできる、芯地や裏地など、細部へこだわります。わたしたちはワンランク上のオーダースーツをお約束します。" />
+  <meta name="keywords" content="ExciteCode,オーダーメイドスーツ,ネクタイ" />
+  <!-- ogp -->
+  <meta property="og:title" content="Excite Code" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="" />
+  <meta property="og:image" content="" />
+  <meta property="og:site_name" content="Excite Code" />
+  <meta property="og:description" content="ExciteCodeは、伝統あるテーラーだからできる、芯地や裏地など、細部へこだわります。わたしたちはワンランク上のオーダースーツをお約束します。" />
+  <meta name="twitter:card" content="summary" />
+  <!-- ファビコン -->
+  <link rel="icon" href="#" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@400;500&family=Noto+Sans+JP:wght@300;400&family=Noto+Serif+JP:wght@300;400&family=Roboto&display=swap" rel="stylesheet">
+
+  <!-- css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="/css/style.css" />
+
+  <!-- JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js" defer></script>
+  <script src="/js/script.js" defer></script>
+</head>
+
+<body>
+  <header class="header js-header">
+    <div class="header__inner">
+      <h1 class="header__logo">
+        <a href="/index.html"><img src="/images/header-logo.svg" alt="Excite Code"></a>
+      </h1>
+      <nav class="header__nav md-none">
+        <ul class="header__items">
+          <li class="header__item">
+            <a href="/about.html" class="header__link">About</a>
+          </li>
+          <li class="header__item">
+            <a href="#service" class="header__link">Service</a>
+          </li>
+          <li class="header__item">
+            <a href="#news" class="header__link">News</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header__button md-none">
+        <a href="/contact.html">Contact</a>
+      </div>
+    </div>
+  </header>
+  <!-- hamburger -->
+  <div class="hamburger js-hamburger md-show">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  <!-- drawer -->
+  <div class="header__drawer drawer js-drawer">
+    <div class="drawer__inner">
+      <ul class="drawer__items">
+        <li class="drawer__item">
+          <a href="/about.html" class="drawer__link">
+            <div class="drawer__link--logo">
+              <img src="/images/section-title-logo.svg" alt="">
+            </div>
+            <p class="drawer__link--text">About</p>
+          </a>
+        </li>
+        <li class="drawer__item">
+          <a href="/index.html" class="drawer__link">
+            <div class="drawer__link--logo">
+              <img src="/images/section-title-logo.svg" alt="">
+            </div>
+            <p class="drawer__link--text">Service</p>
+          </a>
+        </li>
+        <li class="drawer__item">
+          <a href="/index.html" class="drawer__link">
+            <div class="drawer__link--logo">
+              <img src="/images/section-title-logo.svg" alt="">
+            </div>
+            <p class="drawer__link--text">News</p>
+          </a>
+        </li>
+        <li class="drawer__item">
+          <a href="/contact.html" class="drawer__link--contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <main>
+    <!-- top-mv -->
+    <div class="mv">
+      <div class="mv__inner">
+        <div class="mv__slider swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <picture>
+                <source srcset="/images/mv-img.jpg" media="(min-width: 1024px)" />
+                <img src="/images/mv-img-sp.jpg" alt="" />
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture>
+                <source srcset="/images/mv-img2.jpg" media="(min-width: 1024px)" />
+                <img src="/images/mv-img-sp2.jpg" alt="" />
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture>
+                <source srcset="/images/mv-img3.jpg" media="(min-width: 1024px)" />
+                <img src="/images/mv-img-sp3.jpg" alt="" />
+              </picture>
+            </div>
+          </div>
+          <!-- ページネーション -->
+          <div class="swiper-pagination"></div>
+          <!-- 前後の矢印 -->
+          <div class="swiper-button-prev md-none"></div>
+          <div class="swiper-button-next md-none"></div>
+          <div class="mv__title--inner">
+            <div class="mv__title">
+              <h2 class="mv__title--main">MADE to ORDER</h2>
+              <p class="mv__title--sub">上質を仕立てる</p>
+             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- about -->
+    <section id="about" class="about about__layout" data-target="about">
+      <div class="about__inner">
+        <div class="about__title section-title top--title title--inner">
+          <div class="section-title__logo">
+            <img src="/images/section-title-logo.svg" alt="">
+          </div>
+          <h2 class="section-title__main">About</h2>
+        </div>
+        <div class="about__container">
+          <div class="about__content">
+            <div class="about__img">
+              <img src="/images/about__img.jpg" alt="">
+            </div>
+            <div class="about__title--sub">
+              <h2 class="about__text--main">上質を追求する<br class="md-show">老舗として<br>その歴史と<br class="md-show">誇りを持って<br>お客様と<br class="md-show">向き合ってます</h2>
+            </div>
+          </div>
+          <div class="about__body">
+            <p class="about__text">創業以来、厳選した高品質で豊富な生地、研鑽を重ねた縫製技術で多くのスーツを仕立ててきました。<br>伝統あるテーラーだからできる、芯地や裏地など、細部へのこだわり。<br>わたしたちはワンランク上のオーダースーツをお約束します。</p>
+            <div class="about__button button">
+              <a href="/about.html">View More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- service -->
+    <section id="service" class="service">
+      <div class="service__layout">
+        <div class="service__title section-title top--title title--inner">
+          <div class="section-title__logo">
+            <img src="/images/section-title-logo.svg" alt="">
+          </div>
+          <h2 class="section-title__main">Service</h2>
+        </div>
+        <div class="service__inner inner">
+          <div class="service__tab tab">
+            <div class="tab__list">
+              <button class="tab__button js-tab-button is-active">オーダーメイドスーツ</button>
+              <button class="tab__button js-tab-button">その他のアイテム</button>
+            </div>
+            <div class="tab__contents">
+              <div class="tab__content js-tab-content is-active">
+                <ul class="service__cards">
+                  <li class="service__card card">
+                    <div class="card__wrap">
+                      <div class="card__img">
+                        <img src="/images/card-img.jpg" alt="">
+                      </div>
+                      <p class="card__telop">suit</p>
+                    </div>
+                    <div class="card__body">
+                      <p class="card__text--large">カジュアルスーツ</p>
+                      <p class="card__text">あなただけでのスタイルで着こなす、あなただけの一着を</p>
+                    </div>
+                  </li>
+                  <li class="service__card card">
+                    <div class="card__wrap">
+                      <div class="card__img">
+                        <img src="/images/card-img2.jpg" alt="">
+                      </div>
+                      <p class="card__telop">suit</p>
+                    </div>
+                    <div class="card__body">
+                      <p class="card__text--large">リクルートスーツ</p>
+                      <p class="card__text">あなただけでのスタイルで着こなす、あなただけの一着を</p>
+                    </div>
+                  </li>
+                  <li class="service__card card">
+                    <div class="card__wrap">
+                      <div class="card__img">
+                        <img src="/images/card-img3.jpg" alt="">
+                      </div>
+                      <p class="card__telop">suit</p>
+                    </div>
+                    <div class="card__body">
+                      <p class="card__text--large">フォーマルスーツ</p>
+                      <p class="card__text">あなただけでのスタイルで着こなす、あなただけの一着を</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="tab__content js-tab-content">
+                <ul class="service__cards">
+                  <li class="service__card card">
+                    <div class="card__wrap">
+                      <div class="card__img">
+                        <img src="/images/card-img4.jpg" alt="">
+                      </div>
+                      <p class="card__telop">other</p>
+                    </div>
+                    <div class="card__body">
+                      <p class="card__text--large">シューズ</p>
+                      <p class="card__text">あなただけでのスタイルで着こなす、あなただけの一着を</p>
+                    </div>
+                  </li>
+                  <li class="service__card card">
+                    <div class="card__wrap">
+                      <div class="card__img">
+                        <img src="/images/card-img5.jpg" alt="">
+                      </div>
+                      <p class="card__telop">other</p>
+                    </div>
+                    <div class="card__body">
+                      <p class="card__text--large">ネクタイ</p>
+                      <p class="card__text">あなただけでのスタイルで着こなす、あなただけの一着を</p>
+                    </div>
+                  </li>
+                  <li class="service__card card">
+                    <div class="card__wrap">
+                      <div class="card__img">
+                        <img src="/images/card-img6.jpg" alt="">
+                      </div>
+                      <p class="card__telop">other</p>
+                    </div>
+                    <div class="card__body">
+                      <p class="card__text--large">フォーマルバッグ</p>
+                      <p class="card__text">あなただけでのスタイルで着こなす、あなただけの一着を</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- news -->
+    <section id="news" class="news">
+      <div class="news__layout">
+        <div class="news__title section-title top--title title--inner">
+          <div class="section-title__logo section-title__logo--revers">
+            <img src="/images/section-title-logo--revers.svg" alt="">
+          </div>
+          <h2 class="section-title__main section-title__main--revers">News</h2>
+        </div>
+        <div class="news__inner inner">
+          <ul class="news__list">
+            <li class="news__list--item">
+              <a href="#">
+                <div class="news__container">
+                  <div class="news__content">
+                    <time datetime="2022-11-23" class="news__time">2022.11.23</time>
+                    <p class="news__button">お知らせ</p>
+                  </div>
+                  <p class="news__text">12月のお休みのお知らせ</p>
+                </div>
+              </a>
+            </li>
+            <li class="news__list--item">
+              <a href="#">
+                <div class="news__container">
+                  <div class="news__content">
+                    <time datetime="2022-11-18" class="news__time">2022.11.18</time>
+                    <p class="news__button">お知らせ</p>
+                  </div>
+                  <p class="news__text">オンラインストアを開設しました</p>
+                </div>
+              </a>
+            </li>
+            <li class="news__list--item">
+              <a href="#">
+                <div class="news__container">
+                  <div class="news__content">
+                    <time datetime="2022-11-04" class="news__time">2022.11.04</time>
+                    <p class="news__button">イベント</p>
+                  </div>
+                  <p class="news__text">創業80周年記念特別割引適用</p>
+                </div>
+              </a>
+            </li>
+            <li class="news__list--item">
+              <a href="#">
+                <div class="news__container">
+                  <div class="news__content">
+                    <time datetime="2022-10-26" class="news__time">2022.10.26</time>
+                    <p class="news__button">お知らせ</p>
+                  </div>
+                  <p class="news__text">インスタグラムはじめました</p>
+                </div>
+              </a>
+            </li>
+            <li class="news__list--item">
+              <a href="#">
+                <div class="news__container">
+                  <div class="news__content">
+                    <time datetime="2022-10-11" class="news__time">2022.10.11</time>
+                    <p class="news__button">イベント</p>
+                  </div>
+                  <p class="news__text">11月23日～リニューアルオープンイベントがはじまります</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact">
+      <div class="contact__layout">
+        <div class="contact__inner">
+          <div class="contact__container">
+            <div class="contact__content">
+              <div class="contact__title section-title">
+                <div class="section-title__logo">
+                  <img src="/images/section-title-logo.svg" alt="">
+                </div>
+                <h2 class="section-title__main">Contact</h2>
+              </div>
+              <div class="contact__body">
+                <p class="contact__text">お気軽にご相談ください</p>
+                <div class="contact__button button">
+                  <a href="/contact.html">お問い合わせはこちら</a>
+                </div>
+              </div>
+            </div>
+            <div class="contact__wrap">
+              <div class="contact__img">
+                <img src="/images/contact-img.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <small class="footer__copyright">&copy;ExciteCode all rights reserved</small>
+    </div>
+  </footer>
+
+</body>
+
+</html>
